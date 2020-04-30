@@ -1,4 +1,4 @@
-module github.com/libp2p/go-libp2p-core
+module github.com/elitak/go-libp2p-core
 
 require (
 	github.com/btcsuite/btcd v0.20.1-beta
@@ -16,6 +16,7 @@ require (
 	github.com/multiformats/go-multihash v0.0.13
 	github.com/multiformats/go-varint v0.0.5
 	go.opencensus.io v0.22.3
+	golang.org/x/crypto v0.0.0-20200429183012-4b2356b1ed79
 )
 
 go 1.13

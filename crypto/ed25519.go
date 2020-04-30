@@ -2,7 +2,7 @@ package crypto
 
 import (
 	"bytes"
-	"crypto/ed25519"
+	"golang.org/x/crypto/ed25519"
 	"crypto/subtle"
 	"errors"
 	"fmt"
